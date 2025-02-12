@@ -188,7 +188,7 @@ file_name = data_args.task_name+"_"+data_args.partition_policy+"_"+str(data_args
 # file_name = data_args.task_name+"_"+data_args.partition_policy+"_no_noise"+".csv"
 
 # model_performance_file = "./performance/DP_local_fixed/"+file_name
-model_performance_file = "./pre_calculated_performance/"+file_name
+model_performance_file = "./pre_calculated_performance_6/"+file_name
 headers = ['Round', 'Accuracy','Info']
 
 # Open the CSV file in write mode and add headers (this will overwrite if the file already exists)
@@ -279,7 +279,7 @@ dataset_size = len(fds.load_partition(0))
 #     noise_list.append(sigma)
 # exit()
 
-with open('noise_epsilon_10.json', 'r') as file:
+with open('noise_epsilon_6.json', 'r') as file:
     noise = json.load(file)
 noise_list = noise[data_args.task_name][data_args.partition_policy][data_args.accountant]
 if(len(noise_list)!=4):
