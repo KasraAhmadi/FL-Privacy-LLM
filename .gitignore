@@ -1,6 +1,6 @@
 *.env
 result*
-__pycache__
+__pycache__/
 Archived_Results
 figs
 performance
