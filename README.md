@@ -36,8 +36,9 @@ Model_name is the based model. <br>
 task_name is the dataset which can be (SST2, QNLI, or QQP).<br>
 Parition_policy can be (Iid, Linear, Square, or Exp)
 ## citation
-```
 Please cite our papar if you find our repo helpful.
+
+```
 @article{ahmadi2024efficient,
   title={An Interactive Framework for Implementing Privacy-Preserving Federated Learning: Experiments on Large Language Models 	},
   author={Ahmadi, Kasra and Aghapour, Saeed and Kermani, Mehran Mozaffari and Azarderakhsh, Reza},
