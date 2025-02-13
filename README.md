@@ -39,10 +39,13 @@ Parition_policy can be (Iid, Linear, Square, or Exp)
 Please cite our papar if you find our repo helpful.
 
 ```
-@article{ahmadi2024efficient,
-  title={An Interactive Framework for Implementing Privacy-Preserving Federated Learning: Experiments on Large Language Models 	},
-  author={Ahmadi, Kasra and Aghapour, Saeed and Kermani, Mehran Mozaffari and Azarderakhsh, Reza},
-  journal={arXiv preprint arXiv:2403.01215},
-  year={2024}
-}(https://arxiv.org/pdf/2502.08008)
+@misc{ahmadi2025interactiveframeworkimplementingprivacypreserving,
+      title={An Interactive Framework for Implementing Privacy-Preserving Federated Learning: Experiments on Large Language Models}, 
+      author={Kasra Ahmadi and Rouzbeh Behnia and Reza Ebrahimi and Mehran Mozaffari Kermani and Jeremiah Birrell and Jason Pacheco and Attila A Yavuz},
+      year={2025},
+      eprint={2502.08008},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.08008}, 
+}
 ```
