@@ -11,7 +11,7 @@ Because of an existing problem with flwr[simulation]==1.12.0 when using local DP
 
 - copy [localdp_fixed_mod.py](fixed/localdp_fixed_mod.py) in flwr/client/mod
 
-- update [differential_privacy.py](fixed/differential_privacy.py) instead of /fixed/differential_privacy.py
+- use [differential_privacy.py](fixed/differential_privacy.py) instead of /fixed/differential_privacy.py
 
 ## Install dependencies
 ```
