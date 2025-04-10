@@ -1,7 +1,10 @@
 # NOTE
-To use this code upon flower framework you should 
-1- add /fixed/local_dp_fixed_mod.py file into flwr/client/mod/localdp_fixed_mod
-2- update flwr/common/differential_privacy.py to /fixed/differential_privacy.py
+Because of an existing problem with flwr[simulation]==1.12.0 when using local DP, following steps should be done:
+
+- copy [localdp_fixed_mod.py](fixed/localdp_fixed_mod.py) in flwr/client/mod
+
+- update [differential_privacy.py](fixed/differential_privacy.py) instead of /fixed/differential_privacy.py
+
 
 # Differential Privacy-Driven Federated Learning for Large Language Models in HMI Systems
 
