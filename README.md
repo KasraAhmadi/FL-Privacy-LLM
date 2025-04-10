@@ -1,3 +1,8 @@
+# NOTE
+To use this code upon flower framework you should 
+1- add /fixed/local_dp_fixed_mod.py file into flwr/client/mod/localdp_fixed_mod
+2- update flwr/common/differential_privacy.py to /fixed/differential_privacy.py
+
 # Differential Privacy-Driven Federated Learning for Large Language Models in HMI Systems
 
 The GLUE dataset learning process is using Transformers library and is adopted from https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py <br>
