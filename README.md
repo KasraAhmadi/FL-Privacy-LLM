@@ -6,7 +6,7 @@ The GLUE dataset learning process is using Transformers library and is adopted f
 The Federated learning enviroment is using Flower AI framework. <br>
 https://flowerai.net/docs/framework/index.html
 
-# NOTE
+## NOTE
 Because of an existing problem with flwr[simulation]==1.12.0 when using local DP, following steps should be done:
 
 - copy [localdp_fixed_mod.py](fixed/localdp_fixed_mod.py) in flwr/client/mod
