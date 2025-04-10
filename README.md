@@ -2,8 +2,8 @@
 
 # Differential Privacy-Driven Federated Learning for Large Language Models in HMI Systems
 
-The GLUE dataset learning process is using Transformers library and is adopted from [run_glue] (https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py) <br>
-The Federated learning enviroment is using [Flower] (https://flowerai.net/docs/framework/index.html) <br>
+The GLUE dataset learning process is using Transformers library and is adopted from [run_glue](https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py). <br>
+The Federated learning enviroment is using [Flower](https://flowerai.net/docs/framework/index.html). <br>
 
 
 ## NOTE
@@ -23,8 +23,7 @@ To run the experiments in the paper run:
 ./script.sh
 ```
 ## Noise Calculation
-We used the project at https://github.com/star-ailab/FSRDP to find the proper noise std deviation for different accountant.
-To find the proper std deviation of noise in different accountants:
+To calculate required noise for target Epsilon, we used our previous work [FSRDP Accountant](https://github.com/star-ailab/FSRDP).
 ```
 Python ./noise_calculation/get_noise.py
 ```
@@ -41,9 +40,9 @@ python federated.py \
   --learning_rate 2e-5\
   --output_dir /tmp/SST2/
 ```
-Model_name is the based model. <br>
-task_name is the dataset which can be (SST2, QNLI, or QQP).<br>
-Parition_policy can be (Iid, Linear, Square, or Exp)
+- Model_name is the based model. <br>
+- task_name is the dataset which can be (SST2, QNLI, or QQP).<br>
+- Parition_policy can be (Iid, Linear, Square, or Exp).
 ## citation
 Please cite our papar if you find our repo helpful.
 
