@@ -1,6 +1,6 @@
 
 
-# Differential Privacy-Driven Federated Learning for Large Language Models in HMI Systems
+# An Interactive Framework for Implementing Privacy-Preserving Federated Learning: Experiments on Large Language Models
 
 The GLUE dataset learning process is using Transformers library and is adopted from [run_glue](https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py). <br>
 The Federated learning enviroment is using [Flower](https://flowerai.net/docs/framework/index.html). <br>
