@@ -15,7 +15,7 @@ Because of an existing problem with flwr[simulation]==1.12.0 when using local DP
 
 ## Install dependencies
 ```
-pip install requirement.txt
+pip install -r requirement.txt
 ```
 ## Experiments
 To run the experiments in the paper run:
