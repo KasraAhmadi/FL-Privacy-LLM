@@ -9,9 +9,9 @@ The Federated learning enviroment is using [Flower](https://flowerai.net/docs/fr
 ## NOTE
 Because of an existing problem with flwr[simulation]==1.12.0 when using local DP, following steps should be done:
 
-- copy [localdp_fixed_mod.py](fixed/localdp_fixed_mod.py) in flwr/client/mod
+- Copy [localdp_fixed_mod.py](fixed/localdp_fixed_mod.py) in flwr/client/mod
 
-- use [differential_privacy.py](fixed/differential_privacy.py) instead of /fixed/differential_privacy.py
+- Use [differential_privacy.py](fixed/differential_privacy.py) instead of flwr/common/differential_privacy.py
 
 ## Install dependencies
 ```
