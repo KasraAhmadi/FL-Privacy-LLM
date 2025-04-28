@@ -4,7 +4,6 @@ warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 import flwr as fl
 import evaluate
-from privacy_tools import get_sigma
 from flwr_datasets import FederatedDataset
 from flwr_datasets.partitioner import IidPartitioner,LinearPartitioner,SquarePartitioner,ExponentialPartitioner,SizePartitioner
 from datasets import load_dataset
